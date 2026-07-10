@@ -6,7 +6,7 @@ Designing an end-to-end data processing pipeline and interactive visualizations 
 
 **Project Team:** Louise, Nima & Joaquin
 
-![SportFlow cover](docs/images/slide-01.png)
+![SportFlow cover](docs/images/slide-03.png)
 
 ---
 
