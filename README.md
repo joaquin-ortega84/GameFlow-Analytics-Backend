@@ -6,7 +6,7 @@ Designing an end-to-end data processing pipeline and interactive visualizations 
 
 **Project Team:** Louise, Nima & Joaquin
 
-![SportFlow cover](docs/images/slide-03.png)
+![SportFlow cover](docs/images/slide-01.png)
 
 ---
 
@@ -104,7 +104,6 @@ Key mart-level metrics include:
 - **Players Performance** — surfaces key match events by team, player, and minute, including goals, cards, substitutions, penalties, and assists, to quickly understand how the game unfolded.
 - **Medallion Architecture** — organizes the data into the three layers described above: staging, intermediate, and marts.
 
-![dbt marts detail](docs/images/slide-11.png)
 
 ### 5. Frontend (Streamlit)
 
@@ -112,15 +111,12 @@ Key mart-level metrics include:
 
 Interactive Streamlit dashboards show player efficiency, home vs. away performance, team momentum, and cross-season comparisons — all powered by the transformed data from the pipeline above.
 
-![Frontend Streamlit dashboard](docs/images/slide-08.png)
 
 ---
 
 ## Demo
 
 **See SportFlow in Action** — the `GameFlow Analytics` dashboard, running locally with Streamlit, gives an overview of both Football and Formula 1 analytics from a single sidebar-driven app.
-
-![SportFlow demo dashboard](docs/images/slide-09.png)
 
 ---
 
@@ -134,7 +130,7 @@ Interactive Streamlit dashboards show player efficiency, home vs. away performan
 
 > Our pipeline processes 10K+ events per match day, transforms them through Spark and BigQuery, and delivers insights to coaches within seconds of match events occurring.
 
-![Challenge solved](docs/images/slide-10.png)
+![Challenge solved](docs/images/slide-02.png)
 
 ---
 
@@ -146,7 +142,7 @@ Interactive Streamlit dashboards show player efficiency, home vs. away performan
 2. **Predictive Analytics** — predictive models for injury risk, player fatigue, and match outcomes.
 3. **AI-Powered Insights** — computer vision integration for automated event detection and spatial analysis.
 
-![Future of SportFlow](docs/images/slide-12.png)
+![Future of SportFlow](docs/images/slide-09.png)
 
 ---
 
@@ -161,6 +157,10 @@ Interactive Streamlit dashboards show player efficiency, home vs. away performan
 | Orchestration | Apache Airflow |
 | Infrastructure | Docker Compose |
 | Frontend | Streamlit |
+
+
+![Data Processing Pipeline](docs/images/slide-03.png)
+
 
 ---
 
